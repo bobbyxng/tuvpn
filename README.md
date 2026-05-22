@@ -53,5 +53,5 @@ A browser window will open for SSO login. Enter your TUB username, password, and
 ## Notes
 
 - Tested on Fedora Silverblue with a HiDPI screen (`QT_SCALE_FACTOR=2.2`)
-- The `setuptools==69.5.1` pin is required due to `pkg_resources` being removed in newer versions
+- The `setuptools<=69.5.1` pin is required due to `pkg_resources` being removed in newer versions
 - Certificate warning `signer not found` is expected and harmless
