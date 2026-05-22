@@ -36,7 +36,7 @@ source ~/.zshrc
 
 ## Usage
 
-Connect with split tunnel (recommended for everyday use — only TU traffic goes through VPN):
+Connect with split tunnel (recommended for everyday use — only TU Berlin traffic goes through VPN):
 
 ```bash
 tuvpn-split
@@ -48,7 +48,7 @@ Connect with full tunnel (all traffic routed through TU Berlin):
 tuvpn-full
 ```
 
-A browser window will open for SSO login. Enter your TUB username, password, and TOTP code.
+A browser window will open for SSO login. Enter your TU Berlin username, password, and TOTP code.
 
 ## Notes
 
