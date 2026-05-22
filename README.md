@@ -16,7 +16,7 @@ The [official TU Berlin guide](https://www.tu.berlin/campusmanagement/it-support
 Clone the repo:
 
 ```bash
-git clone git@github.com:bxiong/tuvpn.git ~/tuvpn
+git clone git@github.com:bobbyxng/tuvpn.git ~/tuvpn
 cd ~/tuvpn
 pixi install
 ```
