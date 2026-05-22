@@ -1,0 +1,15 @@
+[workspace]
+authors = ["bobbyxng <bobbyxng@gmail.com>"]
+channels = ["conda-forge"]
+name = "tuvpn"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+vpn-split = "QT_SCALE_FACTOR=2.2 openconnect-sso --server vpn.tu-berlin.de --authgroup=1-TU-Split-Tunnel-2FA"
+vpn-full = "QT_SCALE_FACTOR=2.2 openconnect-sso --server vpn.tu-berlin.de --authgroup=2-TU-Full-Tunnel-2FA"
+
+[dependencies]
+openconnect-sso = ">=0.8.0,<0.9"
+setuptools = "<=69.5.1"
+pip = ">=26.1.1,<27"
