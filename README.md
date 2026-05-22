@@ -24,8 +24,8 @@ pixi install
 Add aliases to your `~/.zshrc` and/or `~/.bashrc`:
 
 ```bash
-alias tuvpn-split='cd ~/tuvpn && pixi run vpn-split'
-alias tuvpn-full='cd ~/tuvpn && pixi run vpn-full'
+alias tuvpn-split='pixi run --manifest-path $HOME/tuvpn/pixi.toml tuvpn-split'
+alias tuvpn-full='pixi run --manifest-path $HOME/tuvpn/pixi.toml tuvpn-full'
 ```
 
 Then reload your shell:
