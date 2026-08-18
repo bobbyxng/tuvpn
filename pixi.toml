@@ -9,6 +9,7 @@ version = "0.1.0"
 openconnect-sso = ">=0.8.0,<0.9"
 setuptools = "<=69.5.1"
 pip = ">=26.1.1,<27"
+qt6-wayland = "*"
 
 [tasks]
 tuvpn-split = "QT_SCALE_FACTOR=2.2 openconnect-sso --server vpn.tu-berlin.de --authgroup=1-TU-Split-Tunnel-2FA"
